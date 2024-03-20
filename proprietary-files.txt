@@ -130,19 +130,24 @@ vendor/etc/PL2/ncf/rear/ISO800_3200x2400.ncf|60d16ae00b5ddef7fe40f148bf7c3453a7f
 vendor/etc/PL2/ncf/rear/ISO800_3840x2160.ncf|a8d1d54a15c99b668d687be87108ca56dbc9a3a0
 vendor/etc/PL2/ncf/rear/ISO800_4608x3456.ncf|ec7cfbcaef445e15ea7545ec128ea61fcb4e1067
 
-# Fingerprint (Elan)
-vendor/lib64/hw/fingerprint.elan.so
+# Fingerprint (Goodix)
+vendor/lib64/hw/fingerprint.gxfp5288_c1n.so
+vendor/lib64/libgf_ca_gxfp5288_c1n.so
+vendor/lib64/libgf_hal_gxfp5288_c1n.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
 
-# Fingerprint (Firmware - Elan)
-vendor/firmware/elanfp64.b00
-vendor/firmware/elanfp64.b01
-vendor/firmware/elanfp64.b02
-vendor/firmware/elanfp64.b03
-vendor/firmware/elanfp64.b04
-vendor/firmware/elanfp64.b05
-vendor/firmware/elanfp64.b06
-vendor/firmware/elanfp64.b07
-vendor/firmware/elanfp64.mdt
+# Fingerprint (Firmware - Goodix)
+vendor/firmware/gxfp5288_c1n.b00
+vendor/firmware/gxfp5288_c1n.b01
+vendor/firmware/gxfp5288_c1n.b02
+vendor/firmware/gxfp5288_c1n.b03
+vendor/firmware/gxfp5288_c1n.b04
+vendor/firmware/gxfp5288_c1n.b05
+vendor/firmware/gxfp5288_c1n.b06
+vendor/firmware/gxfp5288_c1n.b07
+vendor/firmware/gxfp5288_c1n.mdt
 
 # Graphics (Firmware - Focaltech)
 vendor/firmware/TP_Firmware_FT8716_PL2.bin

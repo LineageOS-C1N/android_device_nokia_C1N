@@ -2,14 +2,15 @@
 persist.audio.fluence.voicecomm=true
 
 # Bluetooth
-bluetooth.device.default_name=Nokia 6.1
+bluetooth.device.default_name=Nokia 7
 
 # Camera
 persist.camera.ffcolor=true
 persist.capture.burst.exposures=0,-9,9
 
 # Fingerprint
-ro.hardware.fingerprint=elan
+ro.hardware.fingerprint=gxfp5288_c1n
+sys.fp.firmware.version=Goodix-0-V01.00.24.11
 
 # Radio
 ro.rf.power.reduction.for.mcc=1
