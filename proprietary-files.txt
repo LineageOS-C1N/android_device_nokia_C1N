@@ -140,6 +140,14 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
 
 # Fingerprint (Firmware - Goodix)
+vendor/firmware/goodix_config.cfg
+vendor/firmware/goodix_config_hlt.cfg
+vendor/firmware/goodix_config_oflim.cfg
+vendor/firmware/goodix_config_truly.cfg
+vendor/firmware/goodix_firmware.bin
+vendor/firmware/goodix_firmware_hlt.bin
+vendor/firmware/goodix_firmware_oflim.bin
+vendor/firmware/goodix_firmware_truly.bin
 vendor/firmware/gxfp5288_c1n.b00
 vendor/firmware/gxfp5288_c1n.b01
 vendor/firmware/gxfp5288_c1n.b02
