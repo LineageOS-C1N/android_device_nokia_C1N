@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Vendor blobs
-$(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
+$(call inherit-product, vendor/nokia/C1N/C1N-vendor.mk)
 
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
@@ -39,7 +39,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
 # Init
 PRODUCT_PACKAGES += \
-    init.PL2.target.rc
+    init.C1N.target.rc
 
 # NFC
 PRODUCT_PACKAGES += \

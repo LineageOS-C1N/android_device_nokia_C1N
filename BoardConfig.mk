@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/nokia/PL2
+DEVICE_PATH := device/nokia/C1N
 
 # Inherit from nokia sdm660-common
 -include device/nokia/sdm660-common/BoardConfigCommon.mk
@@ -25,7 +25,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 
 # Assertions
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := PL2,PL2_sprout,Plate2
+TARGET_OTA_ASSERT_DEVICE := C1N
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm630
