@@ -1,24 +1,25 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from PL2_sprout (QKQ1.190828.002).
+## are from C1N
 
 # Audio (Configs)
-vendor/etc/audio_platform_info_pl2.xml
-vendor/etc/audio_platform_info_pl2_cn.xml
-vendor/etc/mixer_paths_pl2.xml
-vendor/etc/mixer_paths_pl2_cn.xml
+vendor/etc/audio_platform_info_c1n.xml
+vendor/etc/audio_platform_info_c1n_A.xml
+vendor/etc/mixer_paths_c1n.xml
+vendor/etc/mixer_paths_c1n_A.xml
 
 # Audio (ACDB)
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Bluetooth_cal.acdb|2f6b241fbf14bf90dc735cf5d6aaf8a4ea9520c2
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/General_cal.acdb|4753b479d587447afba1dd45e57251a3e32ad7ec
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Global_cal.acdb|362dcd1fb8ee2fdcb5dc3543a0c836602d1e7e88
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Handset_cal.acdb|fce7a2cda9a1024da22621ee97de930357846b6f
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Hdmi_cal.acdb|6d931363b6c90b31feedbbb6853310bc98796d9f
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb|73c75c381f72232caf2dcd0ff0b2cdbf49a83267
-vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb|3c34deafa8074d5c32ad6b73c1df1578a5b97a72
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Bluetooth_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/General_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Global_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Handset_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Hdmi_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Headset_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Speaker_cal.acdb
+vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/workspaceFile.qwsp
 
 # Audio (Firmware - TFA9891)
-vendor/firmware/TFA9891_pl2.cnt
-vendor/firmware/TFA9891_pl2.ini
+vendor/firmware/TFA9891.cnt
+vendor/firmware/TFA9891.ini
 
 # Camera - from Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15C:user/release-keys
 vendor/etc/camera/s5k3p3_chromatix.xml|013361232789744196231d7293e482acb3d4c7c5
@@ -150,7 +151,7 @@ vendor/firmware/gxfp5288_c1n.b07
 vendor/firmware/gxfp5288_c1n.mdt
 
 # Graphics (Firmware - Focaltech)
-vendor/firmware/TP_Firmware_FT8716_PL2.bin
+vendor/firmware/TP_Firmware_FT8716.bin
 
 # NFC
 vendor/etc/nfcee_access.xml
@@ -163,7 +164,7 @@ vendor/etc/sec_s3nrn81_rfreg.bin
 vendor/firmware/sec_s3nrn81_firmware.bin
 
 # Sensor (Configs)
-vendor/etc/sensors/sensor_def_qcomdev_pl2.conf
+vendor/etc/sensors/sensor_def_qcomdev_c1.conf
 
 # Thermal
-vendor/etc/thermal-engine-PL2.conf
+vendor/etc/thermal-engine-C1N.conf

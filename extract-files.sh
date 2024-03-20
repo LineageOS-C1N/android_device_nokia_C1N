@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=PL2
+export DEVICE=C1N
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
 
