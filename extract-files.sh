@@ -12,9 +12,12 @@
 function blob_fixup() {
     case "${1}" in
         # Fix missing symbol _ZN7android8hardware7details17gBnConstructorMapE
-        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so | vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
+        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so | vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so | vendor/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so)
             "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
             sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.gxfp5288_c1n.so)
+            "${PATCHELF}" --add-needed "libhidlbase-v32.so" "${2}"
             ;;
     esac
 }
