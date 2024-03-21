@@ -17,9 +17,14 @@ vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Headset_cal.acdb
 vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/Speaker_cal.acdb
 vendor/etc/acdbdata/C1N/sdm660-snd-card-c1n-A/workspaceFile.qwsp
 
-# Audio (Firmware - TFA9891)
+# Audio (Firmware - TFA9891|TAS2557)
+vendor/bin/B2N2_TAS2557.ftcfg
+vendor/bin/B2N2_TAS2557_ICTspk.ftcfg
 vendor/firmware/TFA9891.cnt
 vendor/firmware/TFA9891.ini
+vendor/firmware/TAS2557MSSMono_B2N.bin
+vendor/firmware/TAS2557MSSMono_B2N_dvt.bin
+vendor/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin
 
 # Camera - from Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15C:user/release-keys
 vendor/etc/camera/s5k3p3_chromatix.xml|013361232789744196231d7293e482acb3d4c7c5
