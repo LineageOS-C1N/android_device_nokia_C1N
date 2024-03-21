@@ -133,6 +133,7 @@ vendor/etc/PL2/ncf/rear/ISO800_4608x3456.ncf|ec7cfbcaef445e15ea7545ec128ea61fcb4
 
 # Fingerprint (Goodix)
 vendor/lib64/hw/fingerprint.gxfp5288_c1n.so
+vendor/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so
 vendor/lib64/libgf_ca_gxfp5288_c1n.so
 vendor/lib64/libgf_hal_gxfp5288_c1n.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so

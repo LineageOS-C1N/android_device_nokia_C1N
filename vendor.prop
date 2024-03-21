@@ -10,6 +10,7 @@ persist.capture.burst.exposures=0,-9,9
 
 # Fingerprint
 ro.hardware.fingerprint=gxfp5288_c1n
+sys.fp.navigation.enable=1
 sys.fp.firmware.version=Goodix-0-V01.00.24.11
 
 # Radio
